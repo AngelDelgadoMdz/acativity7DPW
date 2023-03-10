@@ -17,7 +17,7 @@ return new class extends Migration
             $table -> string('nombre');
             $table -> string('apellidoPaterno');
             $table -> string('apellidoMaterno');
-            $table -> string('grupo');
+            $table -> unsignedBigInteger('grupo'); /**Esta debe ser una llave foranea id de grupo */
 
             $table->timestamps();
         });
