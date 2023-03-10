@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('grupos', function (Blueprint $table) {
             $table->id();
+
+            $table -> string('nivel');
+            $table -> json('cursos'); /**Quiero que sea un array de cursos */
+
             $table->timestamps();
         });
     }

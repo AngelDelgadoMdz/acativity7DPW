@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->id();
+
+            $table -> string('rol'); /**Agrego el atributo de rol para la tabla usuarios */
+
             $table->timestamps();
         });
     }
