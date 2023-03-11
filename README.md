@@ -1,5 +1,3 @@
-# Actividad 7
-## Aprendiendo migraciones en laravel :D
 ### Angel Santiago Delgado Mendoza 2959951
 
 # Nombre del proyecto
@@ -9,4 +7,6 @@
 # Gráfico ER
 - Evidencia de las tablas:
 ![Tabla de cursos](./images/cursosActividad7.jpg)
+- Diagrama ER en el repositorio
+![Diagrama ER](./images/tablaERActividad7.jpg)
 
