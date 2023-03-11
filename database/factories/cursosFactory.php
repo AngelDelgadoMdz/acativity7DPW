@@ -17,11 +17,11 @@ class cursosFactory extends Factory
      */
     public function definition(): array
     {
-        return [
-            'cursos' -> $this -> faker -> words(3, true),
-            'portada' -> $this -> faker -> sentence(3),
-            'contenido' -> $this -> faker -> paragraph(2),
-            'materialDidactico' -> $this -> faker -> words(2, true),
+        return [ /**Usando faker para el factory de cursos */
+            'cursos' => $this -> faker -> words(3, true),
+            'portada' => $this -> faker -> sentence(3),
+            'contenido' => $this -> faker -> paragraph(2),
+            'materialDidactico' => $this -> faker -> words(2, true),
         ];
     }
 }
