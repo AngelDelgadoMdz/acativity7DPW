@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('administradores', function (Blueprint $table) {
+        Schema::create('administradores', function (Blueprint $table) { /**Creacion de la tabla de los administradores */
             $table->id();
 
             $table -> string('email');

@@ -15,7 +15,10 @@ return new class extends Migration
             $table->id();
 
             $table -> string('rol'); /**Agrego el atributo de rol para la tabla usuarios */
-
+            /**Considero que es complicado tener una tabla solo de usuarios 
+             * puesto a que cada usuario debe tener un id correspondiente en 
+             * sus propias tablas las cuales pueden funcionar mal en conjunto */
+            /**Solo que no supe como borrar esta tabla :'( */
             $table->timestamps();
         });
     }
